@@ -1,5 +1,6 @@
 import React from 'react';
-import Emails from 'messageData';
+import './messages.css';
+
 
 const messages = () => {
   return (<div className="messages">Hello Messages!</div>);
