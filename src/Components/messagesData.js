@@ -1,6 +1,4 @@
-import React from 'react';
-
-let messagesData = [
+let MessagesData = [
   {
     "id": 1,
     "subject": "You can't input the protocol without calculating the mobile RSS protocol!",
@@ -61,4 +59,4 @@ let messagesData = [
   }
 ]
 
-export default messagesData;
+export default MessagesData;

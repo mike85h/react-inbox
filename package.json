@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "boostrap": "3",
+    "boostrap": "3.0.0",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "react": "^15.6.1",
