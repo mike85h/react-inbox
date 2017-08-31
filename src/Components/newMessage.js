@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class NewMessage extends Component{
   constructor(props) {
     super(props);
