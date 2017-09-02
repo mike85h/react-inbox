@@ -5,6 +5,10 @@ import Message from './Message';
 
 
 class Messages extends Component{
+  constructor(props){
+    super(props)
+  }
+  
   render() {
     return(
       <div className="Messages">
