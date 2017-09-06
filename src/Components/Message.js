@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-
+const baseURL = 'http://localhost:8082/api';
 class Message extends Component{
   constructor(props){
     super(props);
     this.state = {
       read: false,
       starred: false,
-      selected: false
+      selected: false,
+      labels: []
      };
     this.handleRead = this.handleRead.bind(this);
     this.handleSelected = this.handleSelected.bind(this);
@@ -41,7 +42,9 @@ class Message extends Component{
           </div>
         </div>
         <div className="col-xs-11" onClick={this.handleRead}>
-            {this.props.MsgSubject}
+            <span className={this.props.labels[0] ? "label label-warning" : ""}>{this.props.labels[0]}</span>
+            <span className={this.props.labels[1] ? "label label-warning" : ""}>{this.props.labels[1]}</span>
+            <a>{this.props.MsgSubject}</a>
         </div>
       </div>
     );
